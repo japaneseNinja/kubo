@@ -2,7 +2,7 @@ package sjava.demo;
 
 /**
  *
- * @author admin
+ * @author admin　
  *
  */
 public class Hero {
