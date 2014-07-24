@@ -5,6 +5,9 @@ public class Parent {
 	String str2 = "親２";
 
 	void method(){
-		System.out.println("親");
+		System.out.println("親method");
+	}
+	static void methodS(){
+		System.out.println("親sutatic method");
 	}
 }

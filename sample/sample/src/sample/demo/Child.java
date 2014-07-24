@@ -6,6 +6,10 @@ public class Child extends Parent{
 
 	@Override
 	void method(){
-		System.out.println("子");
+		System.out.println("子method");
+	}
+
+	static void methodS(){
+		System.out.println("子sutatic method");
 	}
 }
