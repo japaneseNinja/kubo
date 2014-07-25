@@ -2,17 +2,10 @@ package sample.demo;
 
 	public class Test {
 		public static void main(String[] args){
+			String something = "鯛";
 
-			Parent p = new Child();
-			System.out.println(p.str);
-			System.out.println(p.str2);
-			p.method();
-			p.methodS();
+			Fish fish = new Fish();
+			System.out.println(fish.equals(something));    
 
-			Child c = (Child)p;
-			System.out.println(c.str);
-			System.out.println(c.str2);
-			c.method();
-			c.methodS();
 		}
 	}

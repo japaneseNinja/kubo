@@ -12,4 +12,8 @@ public class Child extends Parent{
 	static void methodS(){
 		System.out.println("子sutatic method");
 	}
+
+	void methodC(){
+		System.out.println("子プライベート method");
+	}
 }
