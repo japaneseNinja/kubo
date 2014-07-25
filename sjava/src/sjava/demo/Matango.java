@@ -1,6 +1,7 @@
 package sjava.demo;
 
 public class Matango{
-	private int hp;
-	private final int LEVEL = 10;
+	int hp;
+	final int LEVEL = 10;
+	char suffix ;
 }

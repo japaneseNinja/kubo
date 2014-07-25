@@ -4,9 +4,16 @@ package sjava.demo;
 
 public class Main {
 	public static void main(String[] arg){
-		
-		Cleric c = new Cleric("久保田");
-		System.out.println(Cleric.maxhp);
-		System.out.println(Cleric.maxmp);
+
+		System.out.println("Hero,World");
+
+	SuperHero sh = new SuperHero("久保田");
+	Hero h = new  Hero();
+	System.out.println(sh.getName());
+	sh.fly();
+	sh.land();
+	sh.run();
+	h.run();
+
 	}
 }
