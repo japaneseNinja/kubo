@@ -1,7 +1,7 @@
 package sjava.demo;
 
 public class Wizard {
-	private String name;
+/*	private String name;
 	private int hp;
 	private int mp;
 	private Wand wand;
@@ -55,5 +55,5 @@ public class Wizard {
 			throw new IllegalArgumentException("杖が異常です！中断！");
 		}
 		this.wand = wand;
-	}
+	}*/
 }

@@ -31,9 +31,10 @@ public class Hero {
 	}
 
 	public void attack(Matango m){
-		System.out.println(this.name + "の攻撃！");
+		System.out.println(this.name + "の攻撃！お化けキノコ" +m.suffix+ "に5のダメージ！");
 		System.out.println("お化けキノコ" +m.suffix+ "の反撃で2のダメージ！");
 		this.hp -= 2;
+		m.hp -= 5;
 		if(this.hp<=0){
 			this.die();
 		}
