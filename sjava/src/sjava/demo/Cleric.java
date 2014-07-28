@@ -2,9 +2,8 @@ package sjava.demo;
 
 import java.util.Random;
 
-public class Cleric {
+public class Cleric extends Character{
 	String name;
-	int hp ;
 	static final int maxhp = 50;
 	int mp ;
 	static final int maxmp = 10;
@@ -36,5 +35,9 @@ public class Cleric {
 		this.mp += r2;
 		System.out.println("MPが" + r2 + "回復した！");
 		return r2;
+	}
+	
+	public void run(){
+		System.out.println(this.name+"は逃げた！");
 	}
 }

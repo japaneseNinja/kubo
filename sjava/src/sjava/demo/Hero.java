@@ -1,8 +1,7 @@
 package sjava.demo;
 
-public class Hero {
+public class Hero extends Character {
 	private String name;
-	private int hp;
 	Sword sword;
 	static int money;
 
@@ -51,14 +50,6 @@ public class Hero {
 
 	Hero(){
 		this("名無し");
-	}
-
-	public int getHp() {
-		return hp;
-	}
-
-	public void setHp(int hp) {
-		this.hp = hp;
 	}
 
 	public void setName(String name) {
